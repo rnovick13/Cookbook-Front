@@ -1,0 +1,100 @@
+t// const obj = {
+//   getThis: () => {
+//     return this;
+//   }
+// };
+// console.log('test', obj.getThis());
+
+// const arr = ['Jason', 'Jedi', 'Tommy', 'Ryan']
+// function findName(arr) {
+//   let newArr = arr.filter((name) => {
+//     if (name.startsWith('J')) {
+//      return true
+//     }
+//     return false
+//   })
+//   return newArr
+// }
+// console.log(findName(arr))
+// console.log(newArr)
+
+// extends
+
+// class MyDate extends Date {
+//   constructor() {
+//     super()
+//   }
+// }
+// const m1 = new MyDate()
+// m1.getDate();
+
+// Promise
+// function getValues() {
+//   return Promise.resolve({ value: [100, 200] })
+// }
+
+// function getValues() {
+//   return Promise.reject(new Error('something wrong with api'))
+// }
+
+// // [100, 200]
+// console.log(
+//   getValues().then((v) => {
+//   console.log(v.value)
+// })).catch((err) => {
+
+// })
+
+// const state = { t1: { name: 'John' } }
+// const obj = { id: 't10', payload: { name: 'Tom' } }
+
+// { t1: { name: 'John' }, t2: { name: 'Tom' } }
+
+// ..., Object.assign()
+// let combo = {}
+// combo.
+// const obj1 = { name: 'Tom' }
+// // []
+// obj1['profession'] = 'Teacher'
+// const obj2 = { age: 35 }
+// const obj3 = Object.assign({}, obj1, obj2)
+// console.log(obj3)
+
+// const newObj = Object.assign({}, {[obj.id]: obj.payload}, state )
+
+// console.log(newObj)
+// css - flexbox
+/*
+  <div id="t2" class="blue">Hello world</div>
+  .blue {
+    color: blue
+  }
+
+  div {
+    color: red
+  }
+
+  #t2 {
+    color: pink
+  }
+  // rule of specificity
+*/
+
+/*
+    <ul id='list'>
+        <li>Test1</li>
+        <li>Test2</li>
+        <li>Test3</li>
+    </ul>
+    <div class='clicked'></div>
+*/
+
+// const ul = document.querySelector('#list')
+// ul.addEventListener('click', (el) => {
+//   console.log(ev.target.innerHTML)
+// })
+
+/*
+  component => dispatch actions => reducer => update state => component
+
+*/
